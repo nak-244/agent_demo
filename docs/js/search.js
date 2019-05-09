@@ -8,9 +8,6 @@ $(function() {
                     var srh_jobtype_child_param = $('.srh_jobtype_child_param:checked').map(function() {
                       return $(this).val();
                     }).get();
-                    var srh_shift_param = $('.srh_shift_param:checked').map(function() {
-                      return $(this).val();
-                    }).get();
                     var srh_room_type_param = $('.srh_room_type_param:checked').map(function() {
                       return $(this).val();
                     }).get();

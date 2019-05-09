@@ -2935,7 +2935,7 @@ input[type="button"].btn-block {
     padding-right: 0;
     padding-left: 0; } }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .navbar-expand-md {
     flex-flow: row nowrap;
     justify-content: flex-start; }

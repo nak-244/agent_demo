@@ -1,6 +1,6 @@
 $(function() {
                   var href = "https://olp-cat.jp/index.cfm";
-                  $('#srh_ken_param,.srh_year_money_param').on('change', function() {
+                  $('#srh_ken_param,#srh_year_money_param').on('change', function() {
                     var srh_ken_param = $('#srh_ken_param').val();
                     var srh_year_money_param = $('#srh_year_money_param').val();
 

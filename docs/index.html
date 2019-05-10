@@ -181,39 +181,283 @@
                   </select>
                   <div id="display">
                     <div id="box1" style="display: none;">
-                      <ul class="list-inline">
+                      <ul class="list-inline pl-2 pt-2">
                         <li class="list-inline-item mr-3 mb-2">
-                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param" id="一般事務" value="1"><label class="custom-control-label" for="一般事務">一般事務</label></div>
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input" id="all1" value=""><label class="custom-control-label" for="all1">全選択</label></div>
                         </li>
                         <li class="list-inline-item mr-3 mb-2">
-                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param" id="営業事務" value="2"><label class="custom-control-label" for="営業事務">営業事務</label></div>
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list1" id="一般事務" value="1"><label class="custom-control-label" for="一般事務">一般事務</label></div>
                         </li>
                         <li class="list-inline-item mr-3 mb-2">
-                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param" id="データ入力" value="3"><label class="custom-control-label" for="データ入力">データ入力</label></div>
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list1" id="営業事務" value="2"><label class="custom-control-label" for="営業事務">営業事務</label></div>
                         </li>
                         <li class="list-inline-item mr-3 mb-2">
-                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param" id="コールセンター・テレオペ" value="4"><label class="custom-control-label" for="コールセンター・テレオペ">コールセンター・テレオペ</label></div>
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list1" id="データ入力" value="3"><label class="custom-control-label" for="データ入力">データ入力</label></div>
                         </li>
                         <li class="list-inline-item mr-3 mb-2">
-                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param" id="コールセンター管理・運営" value="5"><label class="custom-control-label" for="コールセンター管理・運営">コールセンター管理・運営</label></div>
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list1" id="コールセンター・テレオペ" value="4"><label class="custom-control-label" for="コールセンター・テレオペ">コールセンター・テレオペ</label></div>
                         </li>
                         <li class="list-inline-item mr-3 mb-2">
-                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param" id="受付・秘書" value="6"><label class="custom-control-label" for="受付・秘書">受付・秘書</label></div>
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list1" id="コールセンター管理・運営" value="5"><label class="custom-control-label" for="コールセンター管理・運営">コールセンター管理・運営</label></div>
                         </li>
                         <li class="list-inline-item mr-3 mb-2">
-                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param" id="人事・総務" value="7"><label class="custom-control-label" for="人事・総務">人事・総務</label></div>
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list1" id="受付・秘書" value="6"><label class="custom-control-label" for="受付・秘書">受付・秘書</label></div>
                         </li>
                         <li class="list-inline-item mr-3 mb-2">
-                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param" id="経理・財務" value="8"><label class="custom-control-label" for="経理・財務">経理・財務</label></div>
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list1" id="人事・総務" value="7"><label class="custom-control-label" for="人事・総務">人事・総務</label></div>
                         </li>
                         <li class="list-inline-item mr-3 mb-2">
-                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param" id="会計・税務" value="9"><label class="custom-control-label" for="会計・税務">会計・税務</label></div>
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list1" id="経理・財務" value="8"><label class="custom-control-label" for="経理・財務">経理・財務</label></div>
                         </li>
                         <li class="list-inline-item mr-3 mb-2">
-                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param" id="法務・特許" value="10"><label class="custom-control-label" for="法務・特許">法務・特許</label></div>
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list1" id="会計・税務" value="9"><label class="custom-control-label" for="会計・税務">会計・税務</label></div>
                         </li>
                         <li class="list-inline-item mr-3 mb-2">
-                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param" id="オフィス事務" value="11"><label class="custom-control-label" for="オフィス事務">オフィス事務</label></div>
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list1" id="法務・特許" value="10"><label class="custom-control-label" for="法務・特許">法務・特許</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list1" id="オフィス事務" value="11"><label class="custom-control-label" for="オフィス事務">オフィス事務</label></div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div id="box2" style="display: none;">
+                      <ul class="list-inline pl-2 pt-2">
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input" id="all2" value=""><label class="custom-control-label" for="all2">全選択</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list2" id="企画営業" value="12"><label class="custom-control-label" for="企画営業">企画営業</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list2" id="ルートセールス" value="13"><label class="custom-control-label" for="ルートセールス">ルートセールス</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list2" id="ラウンダー" value="14"><label class="custom-control-label" for="ラウンダー">ラウンダー</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list2" id="テレアポ" value="15"><label class="custom-control-label" for="テレアポ">テレアポ</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list2" id="営業" value="16"><label class="custom-control-label" for="営業">営業</label></div>
+                        </li>
+
+                      </ul>
+                    </div>
+                    <div id="box3" style="display: none;">
+                      <ul class="list-inline pl-2 pt-2">
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input" id="all3" value=""><label class="custom-control-label" for="all3">全選択</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list3" id="SE(システムエンジニア)" value="17"><label class="custom-control-label" for="SE(システムエンジニア)">SE(システムエンジニア)</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list3" id="PG(プログラマー)" value="18"><label class="custom-control-label" for="PG(プログラマー)">PG(プログラマー)</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list3" id="ネットワークエンジニア・運用" value="19"><label class="custom-control-label" for="ネットワークエンジニア・運用">ネットワークエンジニア・運用</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list3" id="CADオペレーター" value="20"><label class="custom-control-label" for="CADオペレーター">CADオペレーター</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list3" id="評価・テスト" value="22"><label class="custom-control-label" for="評価・テスト">評価・テスト</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list3" id="ヘルプデスク" value="23"><label class="custom-control-label" for="ヘルプデスク">ヘルプデスク</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list3" id="テクニカルサポート" value="24"><label class="custom-control-label" for="テクニカルサポート">テクニカルサポート</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list3" id="IT・エンジニア" value="25"><label class="custom-control-label" for="IT・エンジニア">IT・エンジニア</label></div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div id="box4" style="display: none;">
+                      <ul class="list-inline pl-2 pt-2">
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input" id="all4" value=""><label class="custom-control-label" for="all4">全選択</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list4" id="WEB制作・運用" value="26"><label class="custom-control-label" for="WEB制作・運用">WEB制作・運用</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list4" id="WEBディレクター" value="27"><label class="custom-control-label" for="WEBディレクター">WEBディレクター</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list4" id="WEBデザイナー" value="28"><label class="custom-control-label" for="WEBデザイナー">WEBデザイナー</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list4" id="編集・ライター" value="29"><label class="custom-control-label" for="編集・ライター">編集・ライター</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list4" id="グラフィックデザイナー" value="31"><label class="custom-control-label" for="グラフィックデザイナー">グラフィックデザイナー</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list4" id="WEB・クリエイター" value="34"><label class="custom-control-label" for="WEB・クリエイター">WEB・クリエイター</label></div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div id="box5" style="display: none;">
+                      <ul class="list-inline pl-2 pt-2">
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input" id="all5" value=""><label class="custom-control-label" for="all5">全選択</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list5" id="携帯販売" value="36"><label class="custom-control-label" for="携帯販売">携帯販売</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list5" id="ファッション・コスメ販売" value="38"><label class="custom-control-label" for="ファッション・コスメ販売">ファッション・コスメ販売</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list5" id="販売スタッフ" value="45"><label class="custom-control-label" for="販売スタッフ">販売スタッフ</label></div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div id="box6" style="display: none;">
+                      <ul class="list-inline pl-2 pt-2">
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input" id="all6" value=""><label class="custom-control-label" for="all6">全選択</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list6" id="キャンペーンスタッフ" value="47"><label class="custom-control-label" for="キャンペーンスタッフ">キャンペーンスタッフ</label></div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div id="box7" style="display: none;">
+                      <ul class="list-inline pl-2 pt-2">
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input" id="all7" value=""><label class="custom-control-label" for="all7">全選択</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list7" id="アミューズメントスタッフ" value="50"><label class="custom-control-label" for="アミューズメントスタッフ">アミューズメントスタッフ</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list7" id="パチンコスタッフ" value="52"><label class="custom-control-label" for="パチンコスタッフ">パチンコスタッフ</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list7" id="ホテルスタッフ" value="54"><label class="custom-control-label" for="ホテルスタッフ">ホテルスタッフ</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list7" id="接客サービス" value="59"><label class="custom-control-label" for="接客サービス">接客サービス</label></div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div id="box8" style="display: none;">
+                      <ul class="list-inline pl-2 pt-2">
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input" id="all8" value=""><label class="custom-control-label" for="all8">全選択</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list8" id="カフェ" value="62"><label class="custom-control-label" for="カフェ">カフェ</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list8" id="居酒屋・ダイニングバー" value="64"><label class="custom-control-label" for="居酒屋・ダイニングバー">居酒屋・ダイニングバー</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list8" id="飲食・フード" value="67"><label class="custom-control-label" for="飲食・フード">飲食・フード</label></div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div id="box9" style="display: none;">
+                      <ul class="list-inline pl-2 pt-2">
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input" id="all9" value=""><label class="custom-control-label" for="all9">全選択</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list9" id="ピッキング（検品・梱包・仕分け）" value="68"><label class="custom-control-label" for="ピッキング（検品・梱包・仕分け）">ピッキング（検品・梱包・仕分け）</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list9" id="倉庫管理・入出荷" value="69"><label class="custom-control-label" for="倉庫管理・入出荷">倉庫管理・入出荷</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list9" id="資材搬入" value="70"><label class="custom-control-label" for="資材搬入">資材搬入</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list9" id="清掃スタッフ" value="73"><label class="custom-control-label" for="清掃スタッフ">清掃スタッフ</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list9" id="軽作業" value="75"><label class="custom-control-label" for="軽作業">軽作業</label></div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div id="box10" style="display: none;">
+                      <ul class="list-inline pl-2 pt-2">
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input" id="all10" value=""><label class="custom-control-label" for="all10">全選択</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list10" id="製造スタッフ（組立・加工）" value="76"><label class="custom-control-label" for="製造スタッフ（組立・加工）">製造スタッフ（組立・加工）</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list10" id="食品製造スタッフ" value="77"><label class="custom-control-label" for="食品製造スタッフ">食品製造スタッフ</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list10" id="機械オペレーション（汎用・NC等）" value="78"><label class="custom-control-label" for="機械オペレーション（汎用・NC等）">機械オペレーション（汎用・NC等）</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list10" id="溶接・塗装" value="79"><label class="custom-control-label" for="溶接・塗装">溶接・塗装</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list10" id="検査・品質チェック" value="80"><label class="custom-control-label" for="検査・品質チェック">検査・品質チェック</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list10" id="製造業" value="81"><label class="custom-control-label" for="製造業">製造業</label></div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div id="box11" style="display: none;">
+                      <ul class="list-inline pl-2 pt-2">
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input" id="all11" value=""><label class="custom-control-label" for="all11">全選択</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list11" id="配達" value="84"><label class="custom-control-label" for="配達">配達</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list11" id="配送・ドライバー" value="87"><label class="custom-control-label" for="配送・ドライバー">配送・ドライバー</label></div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div id="box12" style="display: none;">
+                      <ul class="list-inline pl-2 pt-2">
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input" id="all12" value=""><label class="custom-control-label" for="all12">全選択</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list12" id="正看護師" value="88"><label class="custom-control-label" for="正看護師">正看護師</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list12" id="准看護師" value="89"><label class="custom-control-label" for="准看護師">准看護師</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list12" id="看護助手" value="90"><label class="custom-control-label" for="看護助手">看護助手</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list12" id="ヘルパー1級・2級" value="92"><label class="custom-control-label" for="ヘルパー1級・2級">ヘルパー1級・2級</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list12" id="介護福祉士" value="93"><label class="custom-control-label" for="介護福祉士">介護福祉士</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list12" id="医療事務" value="97"><label class="custom-control-label" for="医療事務">医療事務</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list12" id="登録販売者" value="118"><label class="custom-control-label" for="登録販売者">登録販売者</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list12" id="医療・介護・福祉・保育・栄養士" value="99"><label class="custom-control-label" for="医療・介護・福祉・保育・栄養士">医療・介護・福祉・保育・栄養士</label></div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div id="box14" style="display: none;">
+                      <ul class="list-inline pl-2 pt-2">
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input" id="all14" value=""><label class="custom-control-label" for="all14">全選択</label></div>
+                        </li>
+                        <li class="list-inline-item mr-3 mb-2">
+                          <div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input srh_jobtype_child_param list14" id="専門職" value="114"><label class="custom-control-label" for="専門職">専門職</label></div>
                         </li>
                       </ul>
                     </div>
@@ -276,6 +520,7 @@
   <script src="js/smooth-scroll.js"></script>
   <script src="js/search.js"></script>
   <script src="js/box.js"></script>
+  <script src="js/all.js"></script>
 
 </body>
 

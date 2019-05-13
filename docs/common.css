@@ -35,3 +35,9 @@
     max-width: 1140px !important;
   }
 }
+
+/* 溝の幅をなくす */
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}

@@ -549,6 +549,36 @@
           <hr class="mb-4 bg-primary">
         </div>
       </div>
+      <div class="row">
+        <div class="col-md-12">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Larry</td>
+                <td>the Bird</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
       <div class="row no-gutter">
         <div class="col-md-6">
           <div class="list-group">
@@ -556,7 +586,7 @@
               <div class="d-flex w-100 justify-content-between">
                 <p class="my-1">オフィス事務</p> <i class="fa text-primary fa-check-square-o fa-fw py-1 fa-chevron-right mt-3"></i>
               </div>
-              <ul class="list-inline my-1">
+              <ul class="list-inline my-1 pr-4">
                 <li class="list-inline-item">一般事務</li>
                 <li class="list-inline-item">営業事務</li>
                 <li class="list-inline-item">データ入力</li>
@@ -580,21 +610,65 @@
                 <li class="list-inline-item">テレアポ</li>
               </ul>
             </a>
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+              <div class="d-flex w-100 justify-content-between">
+                <p class="my-1">営業</p> <i class="fa text-primary fa-check-square-o fa-fw py-1 fa-chevron-right mt-3"></i>
+              </div>
+              <ul class="list-inline my-1">
+                <li class="list-inline-item">企画営業</li>
+                <li class="list-inline-item">ルートセールス</li>
+                <li class="list-inline-item">ラウンダー</li>
+                <li class="list-inline-item">テレアポ</li>
+              </ul>
+            </a>
           </div>
         </div>
         <div class="col-md-6">
           <div class="list-group">
-            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
               <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">List group</h5> <small>3 days ago</small>
+                <p class="my-1">営業</p> <i class="fa text-primary fa-check-square-o fa-fw py-1 fa-chevron-right mt-3"></i>
               </div>
-              <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p> <small>Donec id elit non mi porta.</small>
+              <ul class="list-inline my-1">
+                <li class="list-inline-item">企画営業</li>
+                <li class="list-inline-item">ルートセールス</li>
+                <li class="list-inline-item">ラウンダー</li>
+                <li class="list-inline-item">テレアポ</li>
+              </ul>
             </a>
             <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
               <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">List group </h5> <small class="text-muted">3 days ago</small>
+                <p class="my-1">オフィス事務</p> <i class="fa text-primary fa-check-square-o fa-fw py-1 fa-chevron-right mt-3"></i>
               </div>
-              <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p> <small class="text-muted">Donec id elit non mi porta.</small>
+              <ul class="list-inline my-1 pr-4">
+                <li class="list-inline-item">一般事務</li>
+                <li class="list-inline-item">営業事務</li>
+                <li class="list-inline-item">データ入力</li>
+                <li class="list-inline-item">受付</li>
+                <li class="list-inline-item">秘書</li>
+                <li class="list-inline-item">コールセンター管理</li>
+                <li class="list-inline-item">人事</li>
+                <li class="list-inline-item">総務</li>
+                <li class="list-inline-item">経理</li>
+                <li class="list-inline-item">財務</li>
+              </ul>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+              <div class="d-flex w-100 justify-content-between">
+                <p class="my-1">オフィス事務</p> <i class="fa text-primary fa-check-square-o fa-fw py-1 fa-chevron-right mt-3"></i>
+              </div>
+              <ul class="list-inline my-1 pr-4">
+                <li class="list-inline-item">一般事務</li>
+                <li class="list-inline-item">営業事務</li>
+                <li class="list-inline-item">データ入力</li>
+                <li class="list-inline-item">受付</li>
+                <li class="list-inline-item">秘書</li>
+                <li class="list-inline-item">コールセンター管理</li>
+                <li class="list-inline-item">人事</li>
+                <li class="list-inline-item">総務</li>
+                <li class="list-inline-item">経理</li>
+                <li class="list-inline-item">財務</li>
+              </ul>
             </a>
           </div>
         </div>
@@ -629,7 +703,7 @@
   <script src="js/search.js"></script>
   <script src="js/box.js"></script>
   <script src="js/all.js"></script>
-  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
+
 </body>
 
 </html>

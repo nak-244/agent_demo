@@ -1,26 +1,39 @@
 /* パソコンで見たときは"pc"のclassがついた画像が表示される */
-.pc { display: block !important; }
-.sp { display: none !important; }
+.pc {
+  display: block !important;
+}
+
+.sp {
+  display: none !important;
+}
+
 /* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
 @media only screen and (max-width: 750px) {
-.pc { display: none !important; }
-.sp { display: block !important; }
+  .pc {
+    display: none !important;
+  }
+
+  .sp {
+    display: block !important;
+  }
 }
 
 .spacer10 {
-    clear: both;
-    width: auto;
-    height: 10px;
+  clear: both;
+  width: auto;
+  height: 10px;
 }
+
 .spacer20 {
-    clear: both;
-    width: auto;
-    height: 20px;
+  clear: both;
+  width: auto;
+  height: 20px;
 }
+
 .spacer30 {
-    clear: both;
-    width: auto;
-    height: 30px;
+  clear: both;
+  width: auto;
+  height: 30px;
 }
 
 /* imgリンク　マウスオーバーできらっと */
@@ -37,14 +50,14 @@
 }
 
 /* 溝の幅をなくす */
-.no-gutter > [class*='col-'] {
-    padding-right:0;
-    padding-left:0;
+.no-gutter>[class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
 }
 
 /* テーブル調整 */
 .tbl-r02 td {
-　border: solid 1px #ccc;
+  border: solid 1px #ccc;
   padding: 10px;
   width: 50%;
 }
@@ -54,36 +67,47 @@
     border-bottom: solid 1px #ccc;
     width: 100%;
   }
+
   .tbl-r02 {
     width: 90%;
   }
+
   .tbl-r02 th,
   .tbl-r02 td {
-　　border-bottom: none;
+    border-bottom: none;
     display: block;
     width: 100%;
   }
 }
 
-
+/* divすべてをaタグでくくるよ */
 .special {
-    position: relative;
-    z-index: 1; /* 必要であればリンク要素の重なりのベース順序指定 */
+  position: relative;
+  z-index: 1;
+  /* 必要であればリンク要素の重なりのベース順序指定 */
 }
+
 .special a {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    text-indent:-999px;
-    z-index: 2; /* 必要であればリンク要素の重なりのベース順序指定 */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-indent: -999px;
+  z-index: 2;
+  /* 必要であればリンク要素の重なりのベース順序指定 */
 }
+
 .special:hover {
-    filter:alpha(opacity=70);/* IE 6,7*/
-    -ms-filter: "alpha(opacity=70)";/* IE 8,9 */
-    -moz-opacity:0.7;/* FF , Netscape */
-    -khtml-opacity: 0.7;/* Safari 1.x */
-    opacity:0.7;
-    zoom:1;/*IE*/
+  filter: alpha(opacity=70);
+  /* IE 6,7*/
+  -ms-filter: "alpha(opacity=70)";
+  /* IE 8,9 */
+  -moz-opacity: 0.7;
+  /* FF , Netscape */
+  -khtml-opacity: 0.7;
+  /* Safari 1.x */
+  opacity: 0.7;
+  zoom: 1;
+  /*IE*/
 }

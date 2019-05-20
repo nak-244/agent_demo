@@ -215,3 +215,40 @@
      margin-left: -38vw;
    }
  }
+
+
+/* guide.html 流れの部分 */
+.flowchart{
+  margin-left: .5em;
+  border-left: 2px dashed;
+}
+.flowchart h2{
+  position: relative;
+  margin-left: 2em;
+  margin-bottom: 0;
+}
+.flowchart p{
+  margin-top: .3em;
+  margin-left: 3em;
+}
+.flowchart h2:before{
+  font-family: Font Awesome\ 5 Free;
+  font-weight: 900;
+  content: "\f358";
+  position: absolute;
+  left: -2.5em;
+  top: .2em;
+  width: 1em;
+  height: 1em;
+  border-radius: .5em;
+  background: #fff;
+}
+.flowchart h2:after{
+  content: "";
+  border-bottom: 1px solid;
+  width: 1em;
+  background: #000;
+  position: absolute;
+  top: .8em;
+  left: -1.5em;
+}

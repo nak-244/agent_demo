@@ -148,3 +148,70 @@
     border-top: none;
   }
 }
+
+/*
+ * フロー　client.htmlで使用
+ */
+ .steps-title {
+   width: 100%;
+   margin: 0 .5em 1em 0em;
+   background: #eaeebb;
+   text-decoration: none;
+   color: #444;
+   position: relative;
+   height: 100px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-flow: column nowrap;
+ }
+
+ .form-explain {
+   min-height: 5em;
+ }
+
+ .steps-title::after {
+   content: " ";
+   display: block;
+   width: 0;
+   height: 0;
+   border-top: 50px solid transparent;
+   border-bottom: 50px solid transparent;
+   border-left: 30px solid #eaeebb;
+   position: absolute;
+   top: 50%;
+   margin-top: -50px;
+   left: 100%;
+   z-index: 2;
+ }
+
+ @media print, screen and (max-width: 768px) {
+   .steps-title {
+     width: 80%;
+     margin: 0 auto 30px;
+     background: #eaeebb;
+     text-decoration: none;
+     color: #444;
+     position: relative;
+     height: auto;
+     text-align: center;
+     padding: 10px;
+   }
+   .steps-title::after {
+     content: "";
+     display: block;
+     border-top: 20px solid #eaeebb !important;
+     border-right: 38vw solid transparent !important;
+     border-left: 38vw solid transparent !important;
+     border-bottom: none;
+     position: absolute;
+     width: 0;
+     height: 0;
+     bottom: -20px !important;
+     top: auto !important;
+     left: 50%;
+     margin-top: 0 !important;
+     margin-left: -38vw;
+   }
+ }

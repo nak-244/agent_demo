@@ -252,3 +252,22 @@
   top: .8em;
   left: -1.5em;
 }
+
+/* パララックス iphone用 */
+.main1 {
+  background: none;
+}
+
+.main1::before {
+  content: "";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  -webkit-transform: translate3d(0, 0, -1px);
+  transform: translate3d(0, 0, -1px);
+  width: 100%;
+  height: 100vh;
+  background: url(assets/img/1top/service_bg.jpg) center/cover no-repeat;
+  -webkit-background-size: cover;
+}

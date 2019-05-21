@@ -528,7 +528,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </div>
     </div>
   </div>
-  <div class="py-5 section2">
+  <div class="py-5 section1">
     <div class="container">
       <div class="row">
         <div class="mx-auto mx-md-0 ml-md-auto col-md-12 text-light" style="	text-shadow: 0px 0px 4px #999999;">
@@ -538,7 +538,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </div>
     </div>
   </div>
-  <div class="alpha pt-5 pb-3" style="	background-image: linear-gradient(to bottom, rgba(255, 240, 230, 0.8), rgba(255, 240, 230, 0.1));	background-position: top left;	background-size: 100%;	background-repeat: repeat;">
+  <script type="text/javascript">
+  var beforeBg = '';
+  $(window).on('load scroll touchmove', function() {
+      $scrollTop = $(window).scrollTop();
+      // 画像を切り替える位置
+      $changePoint = $('.section11').offset().top;
+      if($scrollTop < $changePoint){
+        // 同じ背景画像への切替を行わないように判定
+        if(beforeBg !== 'bgA'){
+          // 新しい画像へ切替
+          $('.section1').removeClass('bgB');
+          $('.section1').addClass('bgA');
+          beforeBg = 'bgA';
+        }
+      } else {
+        if(beforeBg !== 'bgB'){
+          $('.section1').removeClass('bgA');
+          $('.section1').addClass('bgB');
+          beforeBg = 'bgB';
+        }
+      }
+  });
+</script>
+
+  <div class="alpha pt-5 pb-3 section11" style="	background-image: linear-gradient(to bottom, rgba(255, 240, 230, 0.8), rgba(255, 240, 230, 0.1));	background-position: top left;	background-size: 100%;	background-repeat: repeat;">
     <div class="container">
       <div class="row">
         <div class="col-md-12">

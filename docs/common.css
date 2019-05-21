@@ -258,14 +258,14 @@
 
 @media screen and (min-width: 737px) {
   /* PCの場合の背景画像 */
-  .section2 {
+  .section1 {
    background: url("assets/img/1top/service_bg.jpg") no-repeat fixed center center /cover;
   }
 
 }
 @media screen and (max-width: 736px) {
   /* スマホの場合の背景画像 */
-  .section2:before{
+  .section1:before{
    background-position: center center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -278,11 +278,11 @@
    z-index: -1;
   }
   /* スマホの場合は同じ要素の背景画像を変更する */
-  .section2.bgA:before{
+  .section1.bgA:before{
    background-image: url("assets/img/1top/service_bg.jpg");
   }
 
-  .section2.bgB:before{
+  .section1.bgB:before{
    background-image: url("assets/img/1top/service_bg.jpg");
   }
 }

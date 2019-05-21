@@ -254,3 +254,35 @@
 }
 
 /* パララックス iphone用 */
+
+
+@media screen and (min-width: 737px) {
+  /* PCの場合の背景画像 */
+  .section2 {
+   background: url("assets/img/1top/service_bg.jpg") no-repeat fixed center center /cover;
+  }
+
+}
+@media screen and (max-width: 736px) {
+  /* スマホの場合の背景画像 */
+  .section2:before{
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   content: "";
+   z-index: -1;
+  }
+  /* スマホの場合は同じ要素の背景画像を変更する */
+  .section2.bgA:before{
+   background-image: url("assets/img/1top/service_bg.jpg");
+  }
+
+  .section2.bgB:before{
+   background-image: url("assets/img/1top/service_bg.jpg");
+  }
+}

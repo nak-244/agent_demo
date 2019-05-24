@@ -253,4 +253,8 @@
   left: -1.5em;
 }
 
-/* パララックス iphone用 */
+/* 行送り幅調整 */
+
+.height20 {
+    line-height: 2.0;
+}

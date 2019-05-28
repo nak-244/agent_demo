@@ -70,11 +70,11 @@ class Send {
     }
 
     // タイトルの設定
-    $sendTitle = "{$this->_requiredItem["name"]}様よりメールが届きました。";
+    $sendTitle = "【企業様より問い合わせ】人紹特設サイトよりメールが届きました。";
     $sendTitle = mb_encode_mimeheader($sendTitle, "ISO-2022-JP-MS","UTF-8");
 
     // メッセージの設定
-    $this->sendMessage = "{$this->_requiredItem["name"]}様より、下記内容でメールが届きました。\n";
+    $this->sendMessage = "内容確認いただき、お早めにご対応ください。\n";
     $this->sendMessage .= "\n";
     foreach ($this->_submitContent as $key => $value) {
       $this->sendMessage .= "■{$key}\n";

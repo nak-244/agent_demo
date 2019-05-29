@@ -70,7 +70,7 @@ class Send {
     }
 
     // タイトルの設定
-    $sendTitle = "【HPより問い合わせ】人紹特設サイトよりメールが届きました。";
+    $sendTitle = "【人紹特設サイト】求職者登録がありました。";
     $sendTitle = mb_encode_mimeheader($sendTitle, "ISO-2022-JP-MS","UTF-8");
 
     // メッセージの設定

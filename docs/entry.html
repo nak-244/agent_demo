@@ -338,7 +338,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               <input type="hidden" name="都道府県[params]" value="必須">
               <div class="col-sm-3">
                 <select name="都道府県[value]" id="都道府県" class="form-control">
-                  <option value="">都道府県</option>
+                  <option value="">---</option>
                   <option value="北海道">北海道</option>
                   <option value="青森県">青森県</option>
                   <option value="岩手県">岩手県</option>
@@ -404,7 +404,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               <input type="hidden" name="最終学歴[params]" value="必須">
               <div class="col-sm-3">
                 <select name="最終学歴[value]" id="最終学歴" class="form-control">
-                  <option value="">最終学歴</option>
+                  <option value="">---</option>
                   <option value="大学院">大学院</option>
                   <option value="大学">大学</option>
                   <option value="短期大学">短期大学</option>
@@ -428,6 +428,47 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <input type="radio" id="働いていない" name="現在の勤務状況[value]" class="custom-control-input" value="働いていない">
                   <label class="custom-control-label" for="働いていない">働いていない</label>
                 </div>
+              </div>
+            </div>
+            <div class="form-group form-row pt-3 mb-2">
+              <label for="勤務先会社名" class="col-form-label col-sm-3">勤務先会社名</label>
+              <input type="hidden" name="勤務先会社名[params]" value="必須">
+              <div class="col-sm-9">
+                <input type="text" class="form-control" id="勤務先会社名" name="勤務先会社名[value]">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3"></div>
+              <div class="col-sm-9 py-0 my-2">
+                <p class="small my-0">現在離職中の方は直近の就業先をご入力ください。</p>
+              </div>
+            </div>
+            <div class="form-group form-row pt-3 mb-2">
+              <label for="年収" class="col-form-label col-sm-3">年収</label>
+              <input type="hidden" name="年収[params]" value="必須">
+              <div class="col-sm-3">
+                <input type="text" class="form-control" id="年収" name="年収[value]">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3"></div>
+              <div class="col-sm-9 py-0 my-2">
+                <p class="small my-0">額面で入力してください。手当て（住宅手当・家族手当等）は含みます。交通費は含めないでください。</p>
+              </div>
+            </div>
+            <div class="form-group form-row py-3">
+              <label for="雇用形態" class="col-form-label col-sm-3">雇用形態</label>
+              <input type="hidden" name="雇用形態[params]" value="必須">
+              <div class="col-sm-3">
+                <select name="雇用形態[value]" id="雇用形態" class="form-control">
+                  <option value="">---</option>
+                  <option value="正社員">正社員</option>
+                  <option value="契約社員">契約社員</option>
+                  <option value="派遣社員">派遣社員</option>
+                  <option value="紹介予定派遣">紹介予定派遣</option>
+                  <option value="業務委託">業務委託</option>
+                  <option value="その他">その他</option>
+                </select>
               </div>
             </div>
             <div class="form-group form-row py-3">

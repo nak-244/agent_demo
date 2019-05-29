@@ -93,7 +93,7 @@ $EXT_ALLOWS = array($ext_allow1, $ext_allow2, $ext_allow3, $ext_allow4);
 // アップロード容量制限（0=しない・1=する）
 $maxmemory = 1;
 // 最大容量（KB）
-$max = 3000;
+$max = 6000;
 
 // ----------添付ファイル設定終了---------- //
 

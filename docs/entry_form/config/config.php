@@ -83,12 +83,13 @@ EOD
 // 拡張子制限（0=しない・1=する）
 $ext_denied = 1;
 // 許可する拡張子リスト
-$ext_allow1 = "jpg";
-$ext_allow2 = "jpeg";
-$ext_allow3 = "gif";
-$ext_allow4 = "pdf";
+$ext_allow1 = "pdf";
+$ext_allow2 = "docx";
+$ext_allow3 = "doc";
+$ext_allow4 = "xlsx";
+$ext_allow5 = "xls";
 // 配列に格納しておく
-$EXT_ALLOWS = array($ext_allow1, $ext_allow2, $ext_allow3, $ext_allow4);
+$EXT_ALLOWS = array($ext_allow1, $ext_allow2, $ext_allow3, $ext_allow4, $ext_allow5);
 
 // アップロード容量制限（0=しない・1=する）
 $maxmemory = 1;

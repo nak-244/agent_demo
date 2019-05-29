@@ -113,7 +113,7 @@
 }
 
 
-/* テーブルのレスポンシブ */
+/* テーブルのレスポンシブ 企業情報 */
 .col-head-type1 {
   border-collapse: collapse;
   width: 100%;
@@ -148,6 +148,43 @@
     border-top: none;
   }
 }
+
+/* テーブルのレスポンシブ フォーム用 */
+.col-head-type11 {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.col-head-type11 th,
+.col-head-type11 td {
+  border: 1px solid #dbe1e8;
+  padding: 16px;
+}
+
+.col-head-type11 th {
+  background: #f9fafc;
+  text-align: left;
+  width: 250px;
+}
+
+@media only screen and (max-width: 800px) {
+  .col-head-type11 tr,
+  .col-head-type11 th,
+  .col-head-type11 td {
+    display: block;
+    width: auto;
+  }
+
+  .col-head-type11 tr:first-child {
+    border-top: 1px solid #dbe1e8;
+  }
+
+  .col-head-type11 th,
+  .col-head-type11 td {
+    border-top: none;
+  }
+}
+
 
 /*
  * フロー　client.htmlで使用

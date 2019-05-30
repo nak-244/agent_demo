@@ -3,7 +3,7 @@
 // ----------基本設定開始---------- //
 
 // 送信先メールアドレス
-$adminMail = "t09024656860@gmail.com";
+$adminMail = "tsuyoshi.nakamura@openloop.co.jp";
 
 
 // 送信先メールアドレスを配列化(編集しないでください)

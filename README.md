@@ -1,5 +1,5 @@
 # agent_demo
-人紹特設サイト
+https://www.olp.co.jp/agent/
 
 ## 毎週月曜日に実施すること
 ### RPMで、下記の条件で検索

@@ -609,6 +609,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <th nowrap="">会社名</th>
                   <td>
                     <input type="text" class="form-control" name="職務経歴１：会社名[value]">
+                    <div class="custom-control custom-checkbox">
+                    <input type="hidden" name="勤務状況[params]">
+                    <input type="checkbox" class="custom-control-input" id="now" name="勤務状況[value][]" value="在職中">
+                    <label class="custom-control-label" for="now">在職中の方はチェックを入れてください</label>
+                    </div>
                   </td>
                 </tr>
                 <tr>

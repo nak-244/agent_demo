@@ -617,31 +617,52 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </tr>
                 <tr>
                   <td colspan="2" class="table-primary">
-                    <p class="my-0">履歴書・職務経歴書の添付ができない場合は下記をご入力ください。</p>
+                    <p class="my-0">履歴書・職務経歴書のご準備がまだの場合は、下記職歴情報をご入力ください。</p>
                   </td>
                 </tr>
                 <tr>
                   <th nowrap="">自由記入</th>
-                  <td><textarea class="form-control" name="自由記入[value]" id="自由記入"></textarea></td>
+                  <td></td>
                 </tr>
                 <tr>
                   <th nowrap=""><span class="text-primary">*</span>個人情報保護方針</th>
-                  <td>
-                    <div class="custom-control custom-radio">
-                      <input type="hidden" name="個人情報保護方針[params]" value="必須">
-                      <input type="radio" id="個人情報保護方針" name="個人情報保護方針[value][]" class="custom-control-input" value="個人情報保護方針に同意する">
-                      <label class="custom-control-label" for="個人情報保護方針"><a href="privacy.html" target="_blank"><u>個人情報保護方針</u></a>に同意する</label>
-                    </div>
-                  </td>
+                  <td></td>
                 </tr>
               </tbody>
             </table>
-            <input type="submit" value="確認" class="btn-primary d-flex my-4 mx-auto btn">
           </div>
         </div>
       </div>
     </div>
   </form>
+  <div class="my-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="lead py-3 text-primary">その他質問事項等</p>
+          <table class="col-head-type11 table table-bordered">
+            <tbody>
+              <tr>
+                <th nowrap="">自由記入</th>
+                <td><textarea class="form-control" name="自由記入[value]" id="自由記入"></textarea></td>
+              </tr>
+              <tr>
+                <th nowrap=""><span class="text-primary">*</span>個人情報保護方針</th>
+                <td>
+                  <div class="custom-control custom-radio">
+                    <input type="hidden" name="個人情報保護方針[params]" value="必須">
+                    <input type="radio" id="個人情報保護方針" name="個人情報保護方針[value][]" class="custom-control-input" value="個人情報保護方針に同意する">
+                    <label class="custom-control-label" for="個人情報保護方針"><a href="privacy.html" target="_blank"><u>個人情報保護方針</u></a>に同意する</label>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <input type="submit" value="確認" class="btn-primary d-flex my-4 mx-auto btn">
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- フッター -->
   <div class="py-3 pc bg-light">
     <div class="container">

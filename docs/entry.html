@@ -599,20 +599,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               </tbody>
             </table>
             <p class="text-primary p-2"><u>職歴入力の際は、新しいものから3社分まで、ご入力ください。</u></p>
-            <script type="text/javascript">
-              $(function() {
-                $('button#add').click(function() {
-                  var tr_form = '' + '<tr>' + '<td><input type="text" name="text_1[]"></td>' + '<td><input type="text" name="text_2[]"></td>' + '</tr>';
-                  $(tr_form).appendTo($('table > tbody'));
-                });
-              });
-            </script>
             <table class="col-head-type11 table table-bordered">
               <tbody>
                 <tr>
+                  <th colspan="2">職歴１ </th>
+                </tr>
+                <tr>
                   <th nowrap="">会社名</th>
                   <td>
-                    <input type="text" class="form-control" name="会社名[value]">
+                    <input type="text" class="form-control" name="1会社名[value]">
                   </td>
                 </tr>
                 <tr>
@@ -620,7 +615,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <td>
                     <div class="row">
                       <div class="col-sm-3">
-                        <select name="雇用形態[value]" class="form-control">
+                        <select name="1雇用形態[value]" class="form-control">
                           <option value="">---</option>
                           <option value="正社員">正社員</option>
                           <option value="契約社員">契約社員</option>
@@ -637,7 +632,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <td>
                     <div class="row">
                       <div class="col-sm-2">
-                        <select name="勤務開始年[value]" class="form-control">
+                        <select name="1勤務開始年[value]" class="form-control">
                           <option value="">年</option>
                           <option value="1900年">1900年</option>
                           <option value="1901年">1901年</option>
@@ -773,7 +768,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </select>
                       </div>
                       <div class="col-sm-2">
-                        <select name="勤務開始月[value]" class="form-control">
+                        <select name="1勤務開始月[value]" class="form-control">
                           <option value="">月</option>
                           <option value="1月">1月</option>
                           <option value="2月">2月</option>
@@ -793,7 +788,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <p class="py-2 mb-0">～</p>
                       </div>
                       <div class="col-sm-2">
-                        <select name="勤務終了年[value]" class="form-control">
+                        <select name="1勤務終了年[value]" class="form-control">
                           <option value="">年</option>
                           <option value="1900年">1900年</option>
                           <option value="1901年">1901年</option>
@@ -929,7 +924,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </select>
                       </div>
                       <div class="col-sm-2">
-                        <select name="勤務終了月[value]" class="form-control">
+                        <select name="1勤務終了月[value]" class="form-control">
                           <option value="">月</option>
                           <option value="1月">1月</option>
                           <option value="2月">2月</option>
@@ -951,12 +946,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <tr>
                   <th nowrap="">業務内容</th>
                   <td>
-                    <textarea class="form-control" name="業務内容[value]"></textarea>
+                    <textarea class="form-control" name="1業務内容[value]"></textarea>
                   </td>
                 </tr>
               </tbody>
             </table>
-            <input value="追加" class=" d-flex my-4 mx-auto btn" id="add">
+
+            <a data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                クリックしてね（aタグ）
+            </a>
+            <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                クリックしてね（buttonタグ)
+            </button>
+            <div class="collapse" id="collapseExample">
+                <div class="border p-3">
+                    表示されました！
+                </div>
+            </div>
+
           </div>
         </div>
       </div>

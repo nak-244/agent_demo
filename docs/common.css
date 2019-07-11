@@ -305,3 +305,10 @@
 .sitemap a:visited {
     color: #333333 ;
 }
+
+.infobox {
+   height: 6.3em;     /* 高さを制限(※) */
+   overflow: auto;  /* スクロールバーを表示(※) */
+   border: red 1px dashed;    /* 枠線を追加 */
+   background-color: #fff0f0; /* 背景色を追加 */
+}
